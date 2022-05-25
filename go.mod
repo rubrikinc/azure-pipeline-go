@@ -1,4 +1,4 @@
-module github.com/Azure/azure-pipeline-go
+module github.com/rubrikinc/azure-pipeline-go
 
 go 1.14
 

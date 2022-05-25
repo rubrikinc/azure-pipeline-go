@@ -3,7 +3,7 @@ package pipeline_test
 import (
 	"context"
 
-	"github.com/Azure/azure-pipeline-go/pipeline"
+	"github.com/rubrikinc/azure-pipeline-go/pipeline"
 )
 
 // Here is the template for defining your own Factory & Policy:
