@@ -213,8 +213,8 @@ func newDefaultHTTPClient() *http.Client {
 				DualStack: true,
 			}).Dial, /*Context*/
 			MaxIdleConns:           0, // No limit
-			MaxIdleConnsPerHost:    100,
-			IdleConnTimeout:        90 * time.Second,
+			MaxIdleConnsPerHost:    200,
+			IdleConnTimeout:        5 * time.Minute,
 			TLSHandshakeTimeout:    10 * time.Second,
 			ExpectContinueTimeout:  1 * time.Second,
 			DisableKeepAlives:      false,
